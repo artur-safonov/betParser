@@ -2,4 +2,4 @@ settings:
   bets:
     url:
       host: 5021.fun
-      betline: api-2/betline/sports?ctag=en-US&flags=urlv2
+      sports: api-2/betline/sports?ctag=en-US&flags=urlv2
