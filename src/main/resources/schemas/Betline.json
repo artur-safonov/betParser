@@ -1,0 +1,30 @@
+{
+  "id": 1970324836974595,
+  "name": "Football",
+  "weight": 999,
+  "family": "Soccer",
+  "regions": [
+    {
+      "id": 1970324836975076,
+      "name": "Africa",
+      "nameDefault": "Africa",
+      "family": "WORLD",
+      "url": "africa",
+      "leagues": [
+        {
+          "id": 1970324836979368,
+          "name": "Africa Cup of Nations",
+          "nameDefault": "Africa Cup of Nations",
+          "url": "african-cup-of-nations",
+          "weight": 1,
+          "prematch": 6,
+          "inplay": 1,
+          "outright": 0,
+          "top": false,
+          "topOrder": 0,
+          "hasZeroMarginEvents": false
+        }
+      ]
+    }
+  ]
+}
