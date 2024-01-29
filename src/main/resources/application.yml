@@ -1,5 +1,14 @@
 settings:
+  language: en-US
   bets:
     url:
-      host: 5021.fun
-      sports: api-2/betline/sports?ctag=en-US&flags=urlv2
+      host: leonbets.com
+      sports: api-2/betline/sports?ctag=${settings.language}&flags=urlv2
+      league: api-2/betline/events/all?ctag=${settings.language}&league_id=%d&hideClosed=true&flags=reg,urlv2,mm2,rrc,nodup
+      event: api-2/betline/event/all?ctag=${settings.language}&eventId=%d&flags=reg,urlv2,mm2,rrc,nodup,smg,outv2
+    sports: soccer, icehockey, tennis, basketball
+    max-matches: 1
+  max-threads: 3
+  proxy:
+    host: 139.180.39.205
+    port: 8080

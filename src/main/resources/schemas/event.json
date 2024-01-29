@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "nameDefault": {
+      "type": "string"
+    },
+    "competitors": {
+      "type": "array",
+      "items": {
+        "$ref": "competitor.json"
+      }
+    },
+    "kickoff": {
+      "type": "integer"
+    },
+    "lastUpdated": {
+      "type": "integer"
+    },
+    "league": {
+      "$ref": "league.json"
+    },
+    "betline": {
+      "type": "string"
+    },
+    "open": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string"
+    },
+    "native": {
+      "type": "boolean"
+    },
+    "widgetType": {
+      "type": "string"
+    },
+    "widgetVirtual": {
+      "type": "boolean"
+    },
+    "url": {
+      "type": "string"
+    },
+    "matchPhase": {
+      "type": "string"
+    },
+    "hasMarketWithZeroMargin": {
+      "type": "boolean"
+    },
+    "markets": {
+      "type": "array",
+      "items": {
+        "$ref": "market.json"
+      }
+    },
+    "runnersCount": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "nameDefault",
+    "competitors",
+    "kickoff",
+    "lastUpdated",
+    "league",
+    "betline",
+    "open",
+    "status",
+    "native",
+    "widgetType",
+    "widgetVirtual",
+    "url",
+    "matchPhase",
+    "hasMarketWithZeroMargin",
+    "markets",
+    "runnersCount"
+  ]
+}

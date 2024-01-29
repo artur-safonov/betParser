@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "nameDefault": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "prematch": {
+      "type": "integer"
+    },
+    "inplay": {
+      "type": "integer"
+    },
+    "outright": {
+      "type": "integer"
+    },
+    "top": {
+      "type": "boolean"
+    },
+    "topOrder": {
+      "type": "integer"
+    },
+    "hasZeroMarginEvents": {
+      "type": "boolean"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "betline": {},
+    "totalCount": {
+      "type": "integer"
+    },
+    "vtag": {
+      "type": "string"
+    },
+    "sport": {
+      "$ref": "sport.json"
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "$ref": "event.json"
+      }
+    }
+  },
+  "required": [
+    "enabled",
+    "betline",
+    "totalCount",
+    "vtag",
+    "events"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": 1970324843198265,
+  "name": "Nottingham Forest - Arsenal",
+  "nameDefault": "Nottingham Forest - Arsenal",
+  "competitors": [
+    {
+      "id": 1970324836983034,
+      "name": "Nottingham Forest",
+      "homeAway": "HOME",
+      "logoSource": "SCORES",
+      "logo": "https://cdnimages3.gcdn.co/HRJLWPLB/images/config_logos_v2/scores24:t:14-2.png"
+    }
+  ],
+  "kickoff": 1706643000000,
+  "lastUpdated": 1706473425767,
+  "league": {
+    "id": 1970324836975359,
+    "sport": {
+      "id": 1970324836974595,
+      "name": "Football",
+      "weight": 999,
+      "family": "Soccer",
+      "mainMarkets": [
+        {
+          "id": 1970324836974998,
+          "name": "Half-time Winner",
+          "weight": 4,
+          "altMarketTypeIds": [
+            1970324836976487,
+            1970324836975017
+          ],
+          "virtual": false
+        }
+      ],
+      "url": "soccer",
+      "marketGroups": [
+        {
+          "id": 1970324836974593,
+          "name": "Main",
+          "marketTypeIds": [
+            1970324836974993,
+            1970324836975121,
+            1970324836974989
+          ],
+          "virtual": false
+        }
+      ]
+    },
+    "name": "Premier League",
+    "nameDefault": "Premier League",
+    "url": "premier-league",
+    "weight": 998,
+    "prematch": 1,
+    "inplay": 0,
+    "outright": 0,
+    "top": true,
+    "hasZeroMarginEvents": true,
+    "topOrder": 0,
+    "region": {
+      "id": 1970324836974729,
+      "name": "England",
+      "nameDefault": "England",
+      "family": "GB-ENG",
+      "url": "england"
+    }
+  },
+  "betline": "prematch",
+  "open": true,
+  "status": "OPEN",
+  "native": true,
+  "widgetType": "NONE",
+  "widgetVirtual": false,
+  "url": "nottingham-forest-arsenal",
+  "matchPhase": "PRE_GAME",
+  "hasMarketWithZeroMargin": false,
+  "markets": [
+    {
+      "id": 1970325309534390,
+      "name": "Winner",
+      "marketTypeId": 1970324836974645,
+      "open": true,
+      "hasZeroMargin": false,
+      "primary": true,
+      "cols": 3,
+      "runners": [
+        {
+          "id": 1970325971515052,
+          "name": "1",
+          "open": true,
+          "r": 0,
+          "c": 0,
+          "tags": [
+            "HOME"
+          ],
+          "price": 8.1,
+          "priceStr": "8.10"
+        },
+        {
+          "id": 1970325971515054,
+          "name": "X",
+          "open": true,
+          "r": 0,
+          "c": 1,
+          "tags": [
+            "DRAW"
+          ],
+          "price": 4.69,
+          "priceStr": "4.69"
+        },
+        {
+          "id": 1970325971515053,
+          "name": "2",
+          "open": true,
+          "r": 0,
+          "c": 2,
+          "tags": [
+            "AWAY"
+          ],
+          "price": 1.4,
+          "priceStr": "1.40"
+        }
+      ],
+      "selectionTypes": [
+        "HOME",
+        "AWAY",
+        "DRAW"
+      ]
+    }
+  ],
+  "runnersCount": 546
+}

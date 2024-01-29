@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "nameDefault": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "leagues": {
+      "type": "array",
+      "items": {
+        "$ref": "league.json"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "nameDefault",
+    "family",
+    "url",
+    "leagues"
+  ]
+}

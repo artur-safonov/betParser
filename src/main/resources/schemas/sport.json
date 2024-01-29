@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "family": {
+      "type": "string"
+    },
+    "regions": {
+      "type": "array",
+      "items": {
+        "$ref": "region.json"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "weight",
+    "family",
+    "regions"
+  ]
+}

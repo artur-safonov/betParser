@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "marketTypeId": {
+      "type": "integer"
+    },
+    "open": {
+      "type": "boolean"
+    },
+    "hasZeroMargin": {
+      "type": "boolean"
+    },
+    "primary": {
+      "type": "boolean"
+    },
+    "cols": {
+      "type": "integer"
+    },
+    "runners": {
+      "type": "array",
+      "items": {
+        "$ref": "runner.json"
+      }
+    },
+    "selectionTypes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "marketTypeId",
+    "open",
+    "hasZeroMargin",
+    "primary",
+    "cols",
+    "runners",
+    "selectionTypes"
+  ]
+}
